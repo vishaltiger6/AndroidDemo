@@ -14,14 +14,15 @@
 	<url>http://www.example.com</url>
 
 	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<maven.compiler.source>1.8</maven.compiler.source>
-		<maven.compiler.target>1.8</maven.compiler.target>
-	</properties>
-
-	<properties>
-  		<sonar.organization>vishaltiger6</sonar.organization>
-  		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
+		<property>
+			<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+			<maven.compiler.source>1.8</maven.compiler.source>
+			<maven.compiler.target>1.8</maven.compiler.target>
+		</<property>
+		<property>
+  			<sonar.organization>vishaltiger6</sonar.organization>
+  			<sonar.host.url>https://sonarcloud.io</sonar.host.url>
+		</<property>
 	</properties>
 
 	<dependencies>
